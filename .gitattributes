@@ -1,2 +1,27 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+	int numeroInicio=5;
+		int numeroFin=14;
+        boolean var=false;
+		while (numeroInicio<=numeroFin){
+			if(numeroInicio%2==0 && var==true){
+            System.out.print(numeroInicio+" ");
+			}
+			if(numeroInicio%2!=0 && var==false) {
+				System.out.print(numeroInicio+" ");
+			}
+		    numeroInicio++;
+	}
+numeroInicio=5;
+for(int i=numeroFin;i>=numeroInicio;i--) {
+	if(i%2==0) {
+		System.out.print(i+" ");
+	}
+}
+	}
+}
+	
+
